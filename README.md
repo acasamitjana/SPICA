@@ -82,7 +82,11 @@ Now, you will be asked some important information through command line:
 * __Directory of the autoradiograph images:__ navigate to the autoradiograph directory.
 
 ### 3.3.- Output
-The SPICA software
+The SPICA software has two separate outcomes:
+* Quantitative results: it stores the calculated dwell positions for the different channels and source positions. It 
+  also stores the associated type-A uncertainties.
+* Visualization: it shows the theoretical and the computed dwell positions and hole centers among all available channels,
+  source positions and repetitions.
 
 ## 4. Step-by-step example
 In the directory ```example``` we include a notebook with step-by-step guide of the pipeline for visualization purposes
